@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai5</title>
+</head>
+<body>
+    <script>
+        let giưaki = prompt('nhập số điểm thi giữa kì của bạn');
+        let cuoiki = prompt('nhập số điểm thi cuối kì của bạn');
+        let diemtb = (parseInt(giưaki)+parseInt(cuoiki))/2;
+        if (diemtb>8){
+            document.write('bạn là học sinh giỏi');
+        } else if (diemtb>5){
+            document.write('bạn là học sinh khá');
+        } else {
+            document.write('bạn là học sinh dốt');
+        }
+    </script>
+</body>
+</html>
